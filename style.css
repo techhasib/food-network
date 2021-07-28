@@ -1,0 +1,157 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+}
+ul{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+li{
+    padding: 15px 30px;
+    list-style: none;
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+}
+h1{
+    color: #575757;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+.half-width p {
+    color: #828282;
+    font-size: 20px;
+}
+.highlight{
+    color: #FB9249;
+}
+.half-width{
+    width: 40%;
+    padding: 2%;
+    margin: 3%;
+}
+.text{
+    padding-top: 200px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    padding: 24px 32px;
+    border-radius: 100px;
+    font-weight: 700;
+    box-shadow: 2px 2px 10px #FC8F49;
+    margin-top: 20px;
+    display: inline-block;
+}
+.half-width img{
+    width: 100%;
+}
+.flexible-container{
+    display: flex;
+}
+h3{
+    font-size: 40px;
+    color: #707070;
+}
+.about-aria{
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;   
+}
+.title{
+ text-align: center;
+}
+.title p{
+        color: #828282;
+        font-size: 20px;
+        line-height: 0;
+}
+.cards{
+    width: 30%;
+    padding: 1%;
+    margin: 4%;
+    background-color: white;
+}
+.card-img img{
+    width: 100%;
+}
+.card-title h2{
+    font-size: 28px;
+    font-weight: 800;
+}
+.disc p{
+   font-size: 18px;
+   line-height: 32px;
+}
+#box{
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 30px;
+}
+.social-aria{
+    width: 80%;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 20px;
+    margin: 10%;
+    padding: 2%;
+}
+.social-media{
+    margin-left: 10%;
+    width: 33%;
+
+}
+.social-media h2{
+    font-size: 48px;
+    font-size: 700;
+    margin: 0;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 115px;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+.bottom-text{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    padding: 37px 0px;
+}
+.name-color{
+    color: #FA9048;
+}
+.last-name{
+    color: #5B5B5B;
+}
